@@ -5,12 +5,26 @@ A “LAMP” stack is a group of open source software that is typically installe
 Part 1: Setting Up LAMP Stack
 
 1.ON YOUR AWS CONSOLE Launch EC2 Instance:
+
+Create an AWS EC2 instance
+The first thing we are going to do is to log into in the AWS Management Console and create an EC2 instance
+
+Choose a name you like and select the Ubuntu image for the instance.
+Select the “Ubuntu Server 22.04 LTS HVM, Volume Type”.
+You will see it under the free tier.
+
+If you have a key pair already created select it from the drop down menu, 
+if you don’t have one, then create one and download it to your local machine
+Select the default EBS volume(8 gbs)
+
 Deploy an EC2 instance with Ubuntu Linux OS, ensuring correct configurations.
 after launching your instance, remember to edit the inbound rules of your ec2 instance 
 to create a new inbound rule set to http and IPv4 : cidir block 0.0.0.0/0
  
 
-2.
+2. CONNECT TO INSTANCE: VIA CLI
+Establish SSH connection to the EC2 instance.
+via CLI
 i. ON YOUR COMMAND PROMPT Connect to Instance:
 Establish SSH connection to the EC2 instance.
 cd "path to your key file" for eg- cd C:\Users\NAME\linux key  (remember to put the cd command before the path)
