@@ -1,6 +1,9 @@
 # PROJECT-LAMP-stack
 
+A “LAMP” stack is a group of open source software that is typically installed together in order to enable a server to host dynamic websites and web apps written in PHP. This term is an acronym which represents the 'LINUX' operating system with the 'APACHE' web server. The site data is stored in a 'MySQL' database, and dynamic content is processed by 'PHP'.
+
 Part 1: Setting Up LAMP Stack
+
 1.ON YOUR AWS CONSOLE Launch EC2 Instance:
 Deploy an EC2 instance with Ubuntu Linux OS, ensuring correct configurations.
 after launching your instance, remember to edit the inbound rules of your ec2 instance 
@@ -13,7 +16,7 @@ Establish SSH connection to the EC2 instance.
 cd "path to your key file" for eg- cd C:\Users\NAME\linux key  (remember to put the cd command before the path)
 then, click enter and copy and paste your AWS CONSOLE SSH (its found when you click on your instance name and click on connect, 
 under the 'connect to instance' page click on the SSH client and you will find your instance public DNS that
-looks like this ec2-35-92-121-185.us-west-2.compute.amazonaws.com
+looks like this ssh -i /path/to/your/private-key.pem ec2-user@your-ec2-public-ip
                    
                                 OR
 
