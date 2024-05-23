@@ -89,8 +89,12 @@ http://your public IP address
 http://your public IP address/info.php
 
 
-if you encounter any errors which you are unable to resolve its best you terminate the instance
- and start afresh by launching a new instance and redoing the whole process again
+Conclusion
+You have now set up a basic LAMP stack on an Azure VM. You can start deploying your applications and configuring your stack further as per your requirements. If you encounter any issues, consult the Azure documentation or community forums for additional support.
+
+
+[ if you encounter any errors which you are unable to resolve its best you terminate the instance
+ and start afresh by launching a new instance and redoing the whole process again ]
 
 find my screenshots to help make all this info clearer
 thank you.
