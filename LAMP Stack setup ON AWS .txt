@@ -1,4 +1,4 @@
-Part 1: Setting Up LAMP Stack:
+Part 1: Setting Up LAMP Stack on AWS:
 
 1.ON YOUR AWS CONSOLE Launch EC2 Instance:
 Deploy an EC2 instance with Ubuntu Linux OS, ensuring correct configurations.
