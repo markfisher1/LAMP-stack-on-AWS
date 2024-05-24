@@ -1,4 +1,5 @@
-Part 1: Setting Up LAMP Stack:
+
+Setting Up LAMP Stack:
 
 1.Launch EC2 Instance:
 
