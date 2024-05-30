@@ -1,14 +1,13 @@
 # Setting Up LAMP Stack on AWS:
 
 
-# 1.ON YOUR AWS CONSOLE Launch EC2 Instance:
+# 1. ON YOUR AWS CONSOLE Launch EC2 Instance:
 Deploy an EC2 instance with Ubuntu Linux OS, ensuring correct configurations.
 after launching your instance, remember to edit the inbound rules of your ec2 instance 
 to create a new inbound rule set to http and IPv4 : cidir block 0.0.0.0/0
  
 
-# 2.
-# i. ON YOUR COMMAND PROMPT Connect to Instance:
+# 2. i. ON YOUR COMMAND PROMPT Connect to Instance:
 Establish SSH connection to the EC2 instance.
 cd "path to your key file" for eg- cd C:\Users\NAME\linux key  (remember to put the cd command before the path)
 then, click enter and copy and paste your AWS CONSOLE SSH (its found when you click on your instance name and click on connect, 
@@ -17,7 +16,7 @@ looks like this ec2-35-92-121-185.us-west-2.compute.amazonaws.com
                    
                                 OR
 
-# ii. TO CONNECT to your instance VIA YOUR AWS LINUX (UBUNTU) - 
+# 2. ii. TO CONNECT to your instance VIA YOUR AWS LINUX (UBUNTU) - 
 ON YOUR AWS CONSOLE click on your instance name and cick on 'connect',
 on the connect to instance page under 'Connect using EC2 Instance Connect, get to the end and click on connect.
 
@@ -27,13 +26,13 @@ update to the latest version by running the command -
 sudo apt update
 
 
-# 3.Install Components:
+# 3. Install Components:
 Install Apache, MySQL, and PHP packages using package manager commands--
 
 sudo apt install apache2 mysql-server php libapache2-mod-php php-mysql
 
 
-# 4.Start Services:
+# 4. Start Services:
 Initiate Apache and MySQL services to ensure functionality 
 run these commands -
 
@@ -50,7 +49,7 @@ echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php  (i did this one on
 php -v
 
 
-# 5.Test LAMP Stack:
+# 5. Test LAMP Stack:
 Create and access a PHP info file to verify stack operation.
 
 go to your AWS CONSOLE and copy your public IP address (it shows when you click on your instance)
